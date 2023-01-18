@@ -1,0 +1,78 @@
+/* Insert any CSS code below here */
+body {
+  height: 600px;
+  width: 375px;
+  border: solid black;
+  border-width: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  align-content: center;
+  padding: 10px;
+}
+#outside {
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(141, 196, 153);
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+    margin-bottom: -1vh;
+  }
+  
+  .open-card {
+    transform: rotateY(90deg);
+  }
+  
+  #outside-title {
+    margin-top: 22vh;
+    color: rgb(247, 243, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 33px;
+    text-align: center;
+  }
+  
+  #outside-pic {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #outside-help {
+    color: rgb(209, 209, 209);
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  #inside {
+    z-index: 20vh;
+    position: absolute;
+    background-color: rgb(241, 185, 247);
+    text-align: center;
+  }
+  
+  #inside-title {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 22vh;
+  }
+  
+  #inside-pic {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #message {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  button {
+    background: rgb(135, 42, 174);
+    border-radius: 30px;
+    color:aliceblue;
+  }
